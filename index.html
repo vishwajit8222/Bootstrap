@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <h1>Container (Layout)</h1><br>
+        <h2>Bootstrao Demo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ex sunt, nobis libero, suscipit atque aliquid nulla non voluptatibus amet velit facilis! Nihil accusamus non eveniet eligendi officia totam fuga?
+        Id ipsa facilis beatae consequatur minus tenetur laborum iusto. Cumque architecto facere maxime laborum tempore pariatur id illum, hic iure, cupiditate reiciendis ipsa omnis fugiat officiis. Recusandae aliquam veritatis et?
+        Quidem quaerat natus ducimus modi, dolore provident exercitationem, consequuntur temporibus, corporis totam tempore earum itaque distinctio sequi maiores delectus a! Optio consectetur vel perspiciatis voluptatem consequatur sequi adipisci omnis in.
+        Error et iure doloremque voluptatum odio, blanditiis nesciunt cupiditate reiciendis libero modi a cumque consectetur ipsum, quas accusamus saepe non exercitationem repudiandae accusantium sunt. Sequi, voluptate porro? Vel, tempore quae.
+        Corrupti, optio recusandae totam eveniet quae facere in facilis officiis maiores dolor. Optio ad officia molestiae sequi id veniam debitis, maiores minus pariatur ipsum sunt, sint distinctio veritatis aperiam sapiente?</p>
+        <br>
+        <h1>Buttons (Components)</h1><br>
+        <button class="btn">btn One</button>
+        <button class="btn btn-primary">btn Two</button>
+        <button class="btn btn-outline-secondary btn-lg">btn Three</button>
+        <button class="btn btn-outline-warning btn-sm" disabled>btn Four</button>
+        <a href="#" class="btn btn-outline-dark">google me!</a>
+        <br>
+        <h1>Badges (Components)</h1><br>
+        <h3> Notifications <span class="badge text-bg-primary rounded-pill"> 20+ </span></h3>
+        <br>
+        <button class="btn btn-primary">Follower <span class="badge text-bg-secondary">100+</span></button>
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+        </button><br>
+        <h1>Alert (Components)</h1>
+        <div class="alert alert-danger">Download Failed ! Please try again.</div>
+        <div class="alert alert-success alert-dismissible">Congratulations ! You are passed.
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <br>
+        <h1>button group (Components)</h1>
+        <div class="btn-group">
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-outline-danger">Danger</button>
+            <button class="btn btn-success">Success</button>
+        </div>
+        <br>
+        <h1>Navbar (Components)</h1>
+        <nav class="navbar bg-primary navbar-expand-lg fixed-top " data-bs-theme="dark">
+            <div class="container-fluid">
+                <a herf="#" class="navbar-brand ">Brand Name & Logo</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav">
+                <a class="nav-link " href="#">Home</a>
+                <a class="nav-link " href="#">Contact</a>
+                <a class="nav-link " href="#">About us</a>
+               </div>
+            </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                  </form>
+            </div>
+        </nav>
+        <br>
+        <h1>Card (Components)</h1>
+        <div class="card" style="width: 18rem;">
+            <img src="myPic.jpg" class="card-img-top" alt="Photo">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <h1>Grid (Layout)</h1>
+        <div class="container text-center">
+            <div class="row ">
+              <div class="col bg-danger">
+                Column1
+              </div>
+              <div class="col bg-success">
+                Column2
+              </div>
+              <div class="col bg-secondary">
+                Column3
+              </div>
+            </div>
+            <div class="row">
+                <div class="col bg-primary">
+                  Column4
+                </div>
+                <div class="col bg-info">
+                  Column5
+                </div>
+              </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
